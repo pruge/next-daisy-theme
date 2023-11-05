@@ -69,7 +69,7 @@ export default function Layout({ children }) {
 
 'use client'
 
-import {useTheme} from 'next-themes'
+import {useTheme} from 'next-daisy-themes'
 
 interface DarkModeToggleButtonProps {
   className?: string
