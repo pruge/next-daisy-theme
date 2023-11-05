@@ -1,0 +1,144 @@
+
+> next-themes@0.2.0 dev /Users/pruge/Documents/github/next-themes/packages/next-themes
+> tsup src --watch
+
+CLI Building entry: src/index.tsx, src/types.ts
+CLI Using tsconfig: tsconfig.json
+CLI tsup v7.2.0
+CLI Using tsup config: /Users/pruge/Documents/github/next-themes/packages/next-themes/tsup.config.js
+CLI Running in watch mode
+CLI Target: esnext
+ESM Build start
+CJS Build start
+ESM dist/types.mjs 0 B
+ESM dist/index.mjs 2.87 KB
+ESM ⚡️ Build success in 18ms
+CJS dist/types.js 397.00 B
+CJS dist/index.js 3.59 KB
+CJS ⚡️ Build success in 18ms
+CLI Watching for changes in "."
+CLI Ignoring changes in "**/{.git,node_modules}/**" | "dist"
+DTS Build start
+DTS ⚡️ Build success in 2154ms
+CLI Change detected: change src/index.tsx
+DTS Build start
+ESM Build start
+CJS Build start
+ESM dist/types.mjs 0 B
+ESM dist/index.mjs 2.87 KB
+ESM ⚡️ Build success in 14ms
+CJS dist/types.js 397.00 B
+CJS dist/index.js 3.59 KB
+CJS ⚡️ Build success in 15ms
+DTS ⚡️ Build success in 1030ms
+CLI Change detected: change src/index.tsx
+DTS Build start
+ESM Build start
+CJS Build start
+CJS dist/types.js 397.00 B
+CJS dist/index.js 3.59 KB
+CJS ⚡️ Build success in 21ms
+ESM dist/types.mjs 0 B
+ESM dist/index.mjs 2.87 KB
+ESM ⚡️ Build success in 22ms
+DTS ⚡️ Build success in 1010ms
+CLI Change detected: change src/index.tsx
+DTS Build start
+ESM Build start
+CJS Build start
+ESM dist/types.mjs 0 B
+ESM dist/index.mjs 2.85 KB
+ESM ⚡️ Build success in 33ms
+CJS dist/types.js 397.00 B
+CJS dist/index.js 3.57 KB
+CJS ⚡️ Build success in 33ms
+DTS ⚡️ Build success in 1233ms
+CLI Change detected: change src/index.tsx
+DTS Build start
+ESM Build start
+CJS Build start
+ESM dist/types.mjs 0 B
+ESM dist/index.mjs 2.86 KB
+ESM ⚡️ Build success in 37ms
+CJS dist/types.js 397.00 B
+CJS dist/index.js 3.57 KB
+CJS ⚡️ Build success in 40ms
+DTS ⚡️ Build success in 949ms
+CLI Change detected: change src/index.tsx
+DTS Build start
+ESM Build start
+CJS Build start
+CJS dist/types.js 397.00 B
+CJS dist/index.js 3.59 KB
+CJS ⚡️ Build success in 34ms
+ESM dist/types.mjs 0 B
+ESM dist/index.mjs 2.88 KB
+ESM ⚡️ Build success in 34ms
+DTS ⚡️ Build success in 2003ms
+CLI Change detected: change src/index.tsx
+DTS Build start
+ESM Build start
+CJS Build start
+CJS dist/types.js 397.00 B
+CJS dist/index.js 3.59 KB
+CJS ⚡️ Build success in 42ms
+ESM dist/types.mjs 0 B
+ESM dist/index.mjs 2.88 KB
+ESM ⚡️ Build success in 44ms
+DTS ⚡️ Build success in 1522ms
+CLI Change detected: change src/index.tsx
+DTS Build start
+ESM Build start
+CJS Build start
+ESM dist/types.mjs 0 B
+ESM dist/index.mjs 2.86 KB
+ESM ⚡️ Build success in 12ms
+CJS dist/index.js 3.57 KB
+CJS dist/types.js 397.00 B
+CJS ⚡️ Build success in 12ms
+DTS ⚡️ Build success in 1270ms
+CLI Change detected: change src/index.tsx
+ESM Build start
+CJS Build start
+DTS Build start
+CJS dist/types.js 397.00 B
+CJS dist/index.js 3.52 KB
+CJS ⚡️ Build success in 68ms
+ESM dist/types.mjs 0 B
+ESM dist/index.mjs 2.81 KB
+ESM ⚡️ Build success in 68ms
+DTS ⚡️ Build success in 1485ms
+CLI Change detected: change src/index.tsx
+CLI Change detected: change src/index.tsx
+DTS Build start
+ESM Build start
+CJS Build start
+ESM dist/types.mjs 0 B
+ESM dist/index.mjs 2.79 KB
+ESM ⚡️ Build success in 116ms
+CJS dist/types.js 397.00 B
+CJS dist/index.js 3.50 KB
+CJS ⚡️ Build success in 112ms
+DTS ⚡️ Build success in 2137ms
+CLI Change detected: change src/index.tsx
+DTS Build start
+ESM Build start
+CJS Build start
+ESM dist/types.mjs 0 B
+ESM dist/index.mjs 2.78 KB
+ESM ⚡️ Build success in 18ms
+CJS dist/types.js 397.00 B
+CJS dist/index.js 3.49 KB
+CJS ⚡️ Build success in 19ms
+DTS ⚡️ Build success in 1150ms
+CLI Change detected: change src/index.tsx
+DTS Build start
+ESM Build start
+CJS Build start
+ESM dist/types.mjs 0 B
+ESM dist/index.mjs 3.48 KB
+ESM ⚡️ Build success in 13ms
+CJS dist/types.js 397.00 B
+CJS dist/index.js 4.23 KB
+CJS ⚡️ Build success in 13ms
+DTS ⚡️ Build success in 850ms
