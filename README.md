@@ -9,7 +9,7 @@ Check the original from the following
 ## Install
 
 ```bash
-$ npm install https://github.com/pruge/next-daisy-themes
+$ npm install github:pruge/next-daisy-themes
 ```
 
 ## Use
@@ -70,6 +70,7 @@ export default function Layout({ children }) {
 'use client'
 
 import {useTheme} from 'next-daisy-themes'
+import {RefObject, useRef} from 'react'
 
 interface DarkModeToggleButtonProps {
   className?: string
@@ -77,6 +78,7 @@ interface DarkModeToggleButtonProps {
 
 const DarkModeToggleButton = ({className}: DarkModeToggleButtonProps) => {
   const {theme, setTheme} = useTheme()
+  const ref = useRef<HTMLInputElement>(null)
   // daisy
   const THEME_LIGHT = 'bumblebee'
   const THEME_DARK = 'dark'
@@ -93,10 +95,15 @@ const DarkModeToggleButton = ({className}: DarkModeToggleButtonProps) => {
           document.querySelector('html')?.removeAttribute('class')
           setTheme(THEME_LIGHT)
         }
+        if (ref.current) {
+          ref.current.checked = !ref.current.checked
+          ref.current.dispatchEvent(new Event('input'))
+          ref.current.dispatchEvent(new Event('change'))
+        }
       }}
     >
       {/* this hidden checkbox controls the state */}
-      <input type="checkbox" />
+      <input type="checkbox" ref={ref} />
 
       {/* sun icon */}
       <svg
@@ -120,5 +127,6 @@ const DarkModeToggleButton = ({className}: DarkModeToggleButtonProps) => {
 }
 
 export default DarkModeToggleButton
+
 
 ```
